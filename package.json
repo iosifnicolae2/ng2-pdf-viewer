@@ -1,6 +1,6 @@
 {
   "name": "ng2-pdf-viewer",
-  "version": "6.3.2",
+  "version": "6.3.3",
   "description": "Angular 5+ component for rendering PDF",
   "license": "MIT",
   "scripts": {
@@ -19,7 +19,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://vadimdez@github.com/VadimDez/ng2-pdf-viewer.git"
+    "url": "git+https://github.com/iosifnicolae2/ng2-pdf-viewer.git"
   },
   "keywords": [
     "angular",
