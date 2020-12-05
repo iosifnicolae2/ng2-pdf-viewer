@@ -30,7 +30,7 @@ let PDFJS: any;
 let PDFJSViewer: any;
 
 function isSSR() {
-  return typeof window === 'undefined';
+  return typeof window === 'undefined' || !('Promise.allSettled' in window);
 }
 
 if (!isSSR()) {
